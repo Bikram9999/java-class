@@ -1,0 +1,11 @@
+package day29_polymorphism;
+
+public class SavingAccount implements Account {
+
+	@Override
+	public void openAccount() {
+		System.out.println("Saving account is opened..");
+
+	}
+
+}
